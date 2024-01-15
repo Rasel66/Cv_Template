@@ -1,0 +1,316 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape Md Rasel Hossain} \\ \vspace{1pt}
+    Jhenaidah, Bangladesh \\ \vspace{1pt}
+    \small \href{tel:+xxxxxxxxxxxx}{ \raisebox{-0.1\height}\faPhone\ \underline{+880-1721359977} ~} \href{mailto:raselhossain5437@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{raselhossain5437@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/rasel5437/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{in/rasel5437}}  ~
+    \href{https://github.com/Rasel66}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/Rasel66}} ~
+    \href{https://portfolio-mern-4mou.onrender.com/}{\raisebox{-0.2\height}\faUser\ \underline{Portfolio}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Jashore University of Science and Technology, Jashore-7408, Bangladesh}{2019 – 2023}
+      {B.Sc - Computer Science and Engineering - \textbf{CGPA} - \textbf{3.60}}{Jashore, Bangladesh}
+    \resumeSubheading
+      {Govt. K.C College, Jhenaidah, Bangladesh}{2016 – 2018}
+      {Science - \textbf{GPA} - \textbf{4.58}}{Jhenaidah, Bangladesh}
+    \resumeSubheading
+      {Moulanabad Secondary School, Jhenaidah, Bangladesh}{2010 – 2015}
+      {Science - \textbf{GPA} - \textbf{5.00 (SSC)}}{Jhenaidah, Bangladesh}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{COURSEWORK / SKILLS}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item Web Design
+                \item Web Development
+                \item Data Structures
+                \item Database Management System
+                \item Network Security
+                \item OOPS Concept
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{https://github.com/Rasel66/Ams-final-project}{\textbf{\large{\underline{Attendance Management System}}} \href{https://github.com/Rasel66/Ams-final-project}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{EJS, NodeJs, Express, MongoDB, Bootstrap}}}{May 2023}
+          \resumeItemListStart
+            \resumeItem{\normalsize{Store daily attendance, calculates attendance marks automatically.}}
+            \resumeItem{\normalsize{Profile management for teachers and students.}}
+            \resumeItem{\normalsize{Teacher can add and remove students at any time.}}
+            \resumeItem{\normalsize{ Students can view attendance info and admins add/manage teachers and courses via \textbf{Excel file or Form}.}}
+
+          \resumeItemListEnd 
+          \vspace{-13pt}
+
+        \resumeProjectHeading
+          {\href{https://github.com/Rasel66/React_country_app}{\textbf{\large{\underline{Country App}}} \href{https://github.com/Rasel66/React_country_app}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{HTML, CSS, Bootstrap, React}}}{January 2023}
+          \resumeItemListStart
+            \resumeItem{\normalsize{User can search for any Country}}
+            \resumeItem{\normalsize{User can show the Country's Flag, Total area, Population, and Capital city}}
+            \resumeItem{\textcolor{accent} {\href{https://papaya-malasada-c62161.netlify.app/} {\underline{\normalsize{Live site here}}}}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+
+        \resumeProjectHeading
+          {\href{}{\textbf{\large{\underline{Some Frontend Projects }}} \href{}} $|$ \large{\underline{HTML, CSS, Bootstrap, Font Awesome, CodePen}}}{March 2020}
+          \resumeItemListStart
+            \resumeItem{\href{https://github.com/Rasel66/Safari_Tour}{\textbf{\large{{Safari Tour}}} \href{https://github.com/Rasel66/Safari_Tour}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{}
+            {\textcolor{accent} {\href{https://rasel66.github.io/Safari_Tour/} {\underline{\normalsize{Live site here}}}}}}
+            
+            \resumeItem{\href{https://github.com/Rasel66/Finix}{\textbf{\large{{Finix Template}}} \href{https://github.com/Rasel66/Finix}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{}
+            {\textcolor{accent} {\href{https://rasel66.github.io/Finix/} {\underline{\normalsize{Live site here}}}}}}
+
+            \resumeItem{\href{https://github.com/Rasel66/Envato}{\textbf{\large{{Envato Market}}} \href{https://github.com/Rasel66/Envato}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{}
+            {\textcolor{accent} {\href{https://rasel66.github.io/Envato/} {\underline{\normalsize{Live site here}}}}}}
+
+            \resumeItem{\href{https://github.com/Rasel66/panda-commerce}{\textbf{\large{{Panda Commerce}}} \href{https://github.com/Rasel66/panda-commerce}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{}
+            {\textcolor{accent} {\href{https://rasel66.github.io/panda-commerce/} {\underline{\normalsize{Live site here}}}}}}
+
+            \resumeItem{\href{https://github.com/Rasel66/hot-gadgets}{\textbf{\large{{Hot Gadgets}}} \href{https://github.com/Rasel66/hot-gadgets}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{}
+            {\textcolor{accent} {\href{https://rasel66.github.io/hot-gadgets/} {\underline{\normalsize{Live site here}}}}}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+        \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Room Access Tracker using Camera}}} \href{https://github.com/Rasel66/Face_detection}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Python, OpenCV}}}{June 2023}
+          \resumeItemListStart
+            \resumeItem{\normalsize{System tracks room access, logs entries/exits in an \textbf{Excel} sheet.}}
+            \resumeItem{\normalsize{Captures images of individual persons.}}
+            \resumeItem{\normalsize{Access control for the room.}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+        \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Research}}}}}{December 2023}
+          \resumeItemListStart
+            \resumeItem{\normalsize{Pesticide Recommendation for Identified Crops Leaf Disease using Transfer Learning }}
+            \resumeItem{\normalsize{Research Interest: Machine Learning, Deep Learning, Neural Network}}
+          \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%
+
+
+%-----------EXPERIENCE-----------
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{  \normalsize{C, C++, HTML, CSS, JavaScript, Python, SQL}} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{  \normalsize{GitHub, ReactJS, Redux, WordPress, NodeJS, ExpressJS, Git, Mongo, Bootstrap}} \\
+     \textbf{\normalsize{Developer Tools:}}{  \normalsize{VS Code, Code Blocks, PyCharm, Canva }} \\
+     \textbf{\normalsize{Competitive Programming:}}{ \normalsize{LeetCode, CodeChef, URI}} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+%-----------INVOLVEMENT---------------
+%\section{RESRARCH}
+    %\resumeSubHeadingListStart
+        %\begin{multicols}{3}
+            %\begin{itemize}[itemsep=-2pt, parsep=5pt]
+                %\item LeetCode: 180+ Solved
+                %\item CodeChef: 200+ Solved
+                %\item URI: 200+ Solved
+            %\end{itemize}
+        %\end{multicols}
+        %\vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+%\resumeSubHeadingListStart
+    \resumeItemListStart
+        
+        %\resumeItem{\textbf{Leetcode:} \textbf{200+} Rating, Solved \textbf{1000+} Problems
+        %\href{"https://leetcode.com/aman_2_0_2_3/"}{\raisebox{-0.1\height}{\faExternalLink}}}
+        %\resumeItem{\textbf{GeeksforGeeks and InterviewBit:} Solved 500+ Problems
+        %\href{https://auth.geeksforgeeks.org/user/aman_2_0_2_3/practice}{\raisebox{-0.1\height}{\faExternalLink}}}
+        %\resumeItem{\textbf{Codeforces:} Max Rating 1391
+        %\href{https://codeforces.com/profile/abthecoder23}{\raisebox{-0.1\height}{\faExternalLink}}}
+        % \resumeItem{\textbf{Participation Certificate}
+        % \href{ParticipationCertificateLink.com}{\raisebox{-0.1\height}{\faExternalLink}}}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-11pt}
+ 
+ %-----------CERTIFICATIONS---------------
+\section{CERTIFICATIONS}
+
+$\sbullet[.75] \hspace{0.1cm}$ {\href{https://coursera.org/share/d457840d6ccb87ca2ef0369c58e37fc2}{HTML, CSS, and Javascript for Web Developers - Coursera {\raisebox{-0.1\height}\faExternalLink }}} \hspace{1.6cm}
+
+$\sbullet[.75] \hspace{0.1cm}$ 
+{\href{https://coursera.org/share/6fc2661af8eefa00c86906b869bb3b8a}{Responsive Website Basics: Code with HTML, CSS, and JavaScript - Coursera {{\raisebox{-0.1\height}\faExternalLink }}}} \hspace{1.6cm}
+
+$\sbullet[.75] \hspace{0.1cm}$ 
+{\href{https://coursera.org/share/6cef1cfa0ef64edc593932a3eb296774}{Build a Full Website using WordPress - Coursera {{\raisebox{-0.1\height}\faExternalLink }}}} \hspace{1.6cm}
+
+\end{document}
+
+
+
+-------Template link-------
+https://www.overleaf.com/project/65a52d5aee94e3774f49d32e
